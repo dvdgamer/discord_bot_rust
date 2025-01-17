@@ -3,6 +3,7 @@ use dotenv::dotenv;
 use serenity::all::{Context, Message, Ready};
 use serenity::prelude::*;
 use serenity::{async_trait, Client};
+
 struct Handler;
 
 #[async_trait]
