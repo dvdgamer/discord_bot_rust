@@ -4,3 +4,12 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+# Rust library for the Discord API
+serenity = "0.12"
+
+# Tokio is an asynchronous runtime for the Rust
+tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread"] }
+
+# Songbird is an async, cross-library compatible voice system for Discord
+songbird = {version = "0.4", features = ["builtin-queue"]}
+
